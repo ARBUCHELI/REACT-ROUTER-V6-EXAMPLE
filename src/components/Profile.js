@@ -9,6 +9,7 @@ export default function Profile () {
   
   // use loggedIn to return a Navigate
   if (!loggedIn) {
+    //Remember that the Navigate component updates the browser's current location.
     return <Navigate to="/sign-up"/>
   }
 
